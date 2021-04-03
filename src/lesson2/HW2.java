@@ -64,5 +64,22 @@ public class HW2 {
 //    int min = Min(array);
 //    System.out.println("Minimum Value: "+min);
 //   }
+//public static int Max(int[] inputArray){
+//        int maxValue = inputArray[0];
+//        for(int i=1;i < inputArray.length;i++){ if(inputArray[i] > maxValue){
+//        maxValue = inputArray[i];
+//        }
+//        }
+//        return maxValue;
+//        }
 //
+//public static int Min(int[] inputArray){
+//        int minValue = inputArray[0];
+//        for(int i=1;i<inputArray.length;i++){
+//        if(inputArray[i] < minValue){
+//        minValue = inputArray[i];
+//        }
+//        }
+//        return minValue;
+//        }
 //
