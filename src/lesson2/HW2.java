@@ -3,25 +3,25 @@ package lesson2;
 public class HW2 {
 
     //метод1
-    public static void main(String[] args) {
-
-        int[] array =  new int [] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
-
-        for (int i = 1; i < array.length; i--){
-            System.out.println(array[i] + " ");
-
-            System.out.print(array[i] + " ");
-            if (array[i] == 0) array[i] = 1;
-            else array[i] = 0;
-        }
-        System.out.print("\nAFTER:  ");
-        for (int i : array) {
-            System.out.print(i + " ");
-
-        }
-    }}
-   /*
-   ..метод 2
+//    public static void main(String[] args) {
+//
+//        int[] array =  new int [] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+//
+//        for (int i = 1; i < array.length; i--){
+//            System.out.println(array[i] + " ");
+//
+//            System.out.print(array[i] + " ");
+//            if (array[i] == 0) array[i] = 1;
+//            else array[i] = 0;
+//        }
+//        System.out.print("\nAFTER:  ");
+//        for (int i : array) {
+//            System.out.print(i + " ");
+//
+//        }
+//    }}
+//   /*
+//   ..метод 2
     public static void main(String[] args) {
 
             int[] array = new int[8];
@@ -32,7 +32,7 @@ public class HW2 {
                 System.out.println(array[i]);
             }
         }}
-*/
+
 //метод3
 //   public static void main(String[] args) {
 //    {
